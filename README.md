@@ -1,4 +1,4 @@
-# ExampleLiquidBlock
+# Example Liquid Block
 
 by Matt Gemmell - [mattgemmell.com](http://mattgemmell.com) - [@mattgemmell](http://twitter.com/mattgemmell)
 
@@ -6,7 +6,7 @@ License: [CC0 Universal (public domain)](https://creativecommons.org/publicdomai
 
 * * *
 
-A basic example of a [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics)/[Jekyll](http://jekyllrb.com) block-type tag.
+A basic example of a [Liquid](http://docs.shopify.com/themes/liquid-documentation/basics) / [Jekyll](http://jekyllrb.com) block-type tag.
 
 Features:
 
@@ -14,7 +14,11 @@ Features:
 
 - Generates HTML output that wraps the contents of the block.
 
-- Can apply custom CSS classes to the resulting block tag.
+- You can apply custom CSS classes to the resulting block tag.
+
+- You can put other Liquid tags inside the block's contents.
+
+- Is easy to understand for people like me, who just want a minimal example.
 
 * * *
 
@@ -30,4 +34,4 @@ And produces output like:
     	Stuff goes here…
     </blockquote>`
 
-Simple. Should be useful as a template for other Jekyll/Liquid blocks.
+Simple. Should be useful as a template for other Liquid / Jekyll blocks.
